@@ -1,0 +1,7 @@
+sudo code: 
+
+1. aliens -> an array 
+
+2. space-ship -> an object 
+
+3. bullets -> an array 

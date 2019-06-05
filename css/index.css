@@ -1,27 +1,7 @@
-*{
-
-    box-sizing: border-box
-
+canvas {
+    border: 1px solid black;
+    overflow: hidden; 
 }
-
-.container {
-
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-
-}
-
-.background {
-
-    background-color: black;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    border: 6px solid red
-
+body {
+    margin: 0; 
 }
