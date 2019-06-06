@@ -2,12 +2,11 @@ body {
     margin: 0;
     display: block; 
     background-image: url('/img/space.jpg');  
-    background-size: cover;   
+    background-size: cover;  
+    z-index: -1; 
 }
 
 canvas {
-    border: 1px solid black
+    border: 1px solid black;
+    z-index: 2
 }
-
-
-

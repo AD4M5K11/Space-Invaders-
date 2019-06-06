@@ -90,9 +90,15 @@ function animateSpaceship() {
     drawSpaceship(x); 
     c.strokeStyle = "red"; 
     c.stroke(); // animate
+<<<<<<< HEAD
     
     // bouncing of the left / x - radius < 0 / and right / x + radius > innerWidth / screen 
     if (x + radius > innerWidth || x - radius < 0) {
+=======
+          
+    // bouncing of the left /* x - radius < 0 */ and right /* x + radius > innerWidth */ screen 
+    if (x + radius > innerWidth-100 || x - radius < 0) {
+>>>>>>> 9b2a4ccdbfece74df12bf38e9c8f61d079bbb5ca
         dx = -dx
     }
     x += dx;
