@@ -7,7 +7,7 @@
 
 let xEnemies = 500
 let dxEnemies = 15
-let fromTopEnemies = 0
+let fromTopEnemies = 50
 let diameterEnemies = 50
 function animateEnemies() {
     requestAnimationFrame(animateEnemies)
