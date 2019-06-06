@@ -1,7 +1,13 @@
-canvas {
-    border: 1px solid black;
-    overflow: hidden; 
-}
 body {
-    margin: 0; 
+    margin: 0;
+    display: block; 
+    background-image: url('/img/space.jpg');  
+    background-size: cover;   
 }
+
+canvas {
+    border: 1px solid black
+}
+
+
+
