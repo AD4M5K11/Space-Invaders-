@@ -1,12 +1,21 @@
 body {
-
     margin: 0;
-    overflow: hidden
-
+    display: block; 
+    background-image: url('/img/space.jpg');  
+    background-size: cover;  
+    z-index: -1; 
 }
 
 canvas {
-
-    border: 1px solid black
+    border: 1px solid black;
+    z-index: 2
+}
+/* <<<<<<< HEAD
 
 }
+=======
+}
+
+
+
+>>>>>>> 2d599617557eef9ed7518db7d112c55b8eaf3062 */
