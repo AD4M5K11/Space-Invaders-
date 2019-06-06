@@ -10,8 +10,8 @@ function drawSpaceship(x) {
         c.beginPath(); // // prevents from connecting path, starting a new path 
         c.fillStyle = "ivory"
         // x, y, width, height
-        c.fillRect(x, 750, 100, 20)
-        c.fillRect(x+25, 730, 50, 20)
+        c.fillRect(x, 900, 100, 20)
+        c.fillRect(x+25, 880, 50, 20)
     }
 }
 drawSpaceship(x); 
@@ -28,9 +28,9 @@ function animateSpaceship() {
     drawSpaceship(x); 
     c.strokeStyle = "red"; 
     c.stroke(); // animate
-    
+          
     // bouncing of the left /* x - radius < 0 */ and right /* x + radius > innerWidth */ screen 
-    if (x + radius > innerWidth || x - radius < 0) {
+    if (x + radius > innerWidth-100 || x - radius < 0) {
         dx = -dx
     }
     x += dx;
