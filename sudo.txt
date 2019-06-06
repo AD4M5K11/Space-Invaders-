@@ -3,5 +3,8 @@ sudo code:
 1. aliens -> an array 
 
 2. space-ship -> an object 
+function Ship() {
+    this.x = width/2
+}
 
 3. bullets -> an array 
